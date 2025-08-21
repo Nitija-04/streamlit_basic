@@ -1,0 +1,16 @@
+import streamlit as st
+
+st.title("Streamlit demo")
+st.write("Hello from st.write()",123,{"key":"value"})
+st.markdown("# Heading 1")
+st.markdown("## Heading 2")
+st.markdown("### Heading 3")
+st.markdown("#### Heading 4")
+st.markdown("##### Heading 5")
+st.markdown("###### Heading 6")
+st.markdown("*Bold* **Italic** ***Bold+Italic***")
+st.title("Title Example")
+st.header("header example")
+st.subheader("Subheader example")
+st.text("Plain text here")
+st.code("print('Hello, World!')",language='python')
